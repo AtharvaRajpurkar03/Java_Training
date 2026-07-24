@@ -1,0 +1,34 @@
+<p>hello works!</p>
+<h1 [style.color]="color">{{msg}}</h1>
+
+<!-- <<button class="btn btn-primary" (click)="changeColor()">changeColor</button> -->
+
+<!-- <img [src]="source" alt="Image"> -->
+ @if (!isDisabled) {
+  <img [src]="source" alt="Image">
+}
+
+<button class="btn btn-primary" [disabled]="isDisabled">
+  Change-color
+</button>
+
+<button class="btn btn-success" (click)="toggleButton()">
+  Toggle Button
+</button>
+
+<!-- <button class="btn btn-warning ms-2" (click)="changeBorder()">
+  Change Border
+</button> -->
+
+<!-- <h1 [style.font-size.px]="fontSize">{{msg}}</h1>
+
+<table [style.border]="borderStyle">
+
+    <tr>
+        <td>Name</td>
+        <td [style.color]="textColor"[style.border]="borderStyle">Atharva Rajpurkar</td>
+    </tr>
+</table> -->
+
+
+
